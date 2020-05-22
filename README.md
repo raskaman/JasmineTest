@@ -5,16 +5,19 @@ Jasmine coverage
 ## Setup
 
 Install packages
+
 run on terminal:
 `npm i` or `npm install`
 
 ## Run npm Tests
 
 using jamine
+
 run on terminal:
 `npx jasmine` or `npm jasmine`
 
 using grunt
+
 run on terminal:
 `grunt`
 
