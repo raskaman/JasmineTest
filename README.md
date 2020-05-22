@@ -37,4 +37,4 @@ check page at
 
 ## Jasmine Runner in Browser
 
-/src/DuplicateSignupsSpecRunner.html
+/spec_runner/DuplicateSignupsSpecRunner.html
