@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Duplicate Signups</title>
+  </head>
+  <body>
+    <a href="DuplicateSignupsSpecRunner.html" target="_blank"
+      >Check the unit tests</a
+    >
+    <br /><br />
+    <input type="button" id="submitSignupInfo" value="Sign me up" />
+
+    <div
+      id="duplicateSignupsCheck"
+      class="duplicateSignupsCheck"
+      style="display: none;"
+    >
+      <p class="duplicateSignupsCheck__title">Duplicate Sign Up Check</p>
+      <div class="duplicateSignupsCheck__desc">
+        <p
+          style="
+            color: #666666;
+            background-color: #ffffff;
+            margin-right: 0px;
+            margin-bottom: 1.4rem;
+            margin-left: 0px;
+            padding: 0px;
+            border: 0px;
+            letter-spacing: -0.5px;
+          "
+        >
+          We have been unable to find any credit history for you. you can
+          proceed with the signup, however you will be required to upload a copy
+          of your Photo ID and you will be charged $150 as a bond
+        </p>
+        <p>It looks like you have submitted a signup previously .......</p>
+        <p>It looks like you have submitted a signup previously .......</p>
+      </div>
+
+      <div class="duplicateSignupsCheck__textArea">
+        <textarea
+          id="duplicateSignupsCheckMessage"
+          class="duplicateSignupsCheck__message"
+          name="message"
+          rows="10"
+          cols="30"
+          placeholder="Enter message here"
+          maxlength="2000"
+        ></textarea>
+        <div id="charactersRemaining" class="duplicateSignupsCheck__count">
+          0/2000 characters
+        </div>
+      </div>
+
+      <input
+        type="button"
+        id="duplicateSignupsCheckClose"
+        class="buttonField"
+        value="Close"
+      />
+      <input
+        type="submit"
+        id="duplicateSignupsCheckSubmit"
+        class="buttonField"
+        value="Submit"
+      />
+    </div>
+    <input type="hidden" id="signupId" name="signupId" value="12345" />
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="ToDo.js"></script>
+  <script src="DuplicateSignups.js"></script>
+</html>
