@@ -3,9 +3,9 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     jasmine: {
       test: {
-        src: ['src/js/jquery.js', 'src/js/*.src.js'],
+        src: ['src/js/lib/jquery.js', 'src/js/**/*.src.js'],
         options: {
-          specs: 'src/test/*Spec.js',
+          specs: 'spec/*Spec.js',
           helpers: 'spec/helpers/*Helper.js',
         },
       },

@@ -14,8 +14,7 @@
     "nyc": "^15.0.1"
   },
   "scripts": {
-    "test": "nyc --reporter=html jasmine",
-    "jasmine": "npx jasmine"
+    "test": "nyc --reporter=html jasmine"
   },
   "author": "JM",
   "license": "ISC"

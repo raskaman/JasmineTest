@@ -14,7 +14,7 @@ run on terminal:
 using jamine
 
 run on terminal:
-`npx jasmine` or `npm jasmine`
+`npx jasmine`
 
 using grunt
 
